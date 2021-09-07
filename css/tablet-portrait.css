@@ -1,0 +1,55 @@
+nav#topNav {
+  padding: 0 1rem;
+  transition: all 350ms ease;
+}
+
+nav#topNav,
+nav#topNav ul.nav-menu {
+  flex-direction: column;
+}
+
+nav#topNav ul.nav-menu {
+  justify-content: space-between;
+  margin: 0;
+}
+
+nav#topNav ul.nav-menu li.nav-item {
+  flex-grow: 1;
+}
+
+nav#topNav ul.nav-menu li.nav-item:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+nav#topNav a.navbar-brand {
+  justify-content: flex-start;
+}
+
+nav#topNav .toggle-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav#topNav .toggle-btn-container .toggle-btn-line {
+  background: var(--text-white);
+  height: 1vh;
+}
+
+/* Content */
+
+.page-content-container .contents .container {
+  flex-direction: column;
+}
+
+.page-content-container .contents .container .primary-content {
+  padding: 1rem;
+}
+
+.page-content-container .contents .container {
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 3rem 1rem;
+}

@@ -1,0 +1,31 @@
+/* 
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Hina Mincho', serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Slab', serif; */
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(../assets/fonts/BarlowCondensed.ttf);
+}
+
+@font-face {
+  font-family: "Hina Mincho";
+  src: url(../assets/fonts/HinaMincho.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(../assets/fonts/Lora.ttf);
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url(../assets/fonts/PlayfairDisplay.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url(../assets/fonts/RobotoSlab.ttf);
+}
